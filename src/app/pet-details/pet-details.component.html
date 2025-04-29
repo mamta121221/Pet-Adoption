@@ -1,0 +1,26 @@
+<div class="row">
+  <app-header></app-header>
+</div>
+
+<div class="card w-75 mb-3">
+  <div class="card-body">
+    <h5 class="card-title">{{petDetails.name}}</h5>
+    <p class="card-text">
+      <img src="{{petDetails.image}}" class="card-img">
+      Introducing {{petDetails.name}}: The Charismatic CompanionMeet {{petDetails.name}}
+    </p>
+    <p>the charming black {{petDetails.breed}} with a heart as big as his adorable personality. At just 4 years old,
+      {{petDetails.name}} found himself abandoned on the streets, but he's ready to turn a new leaf and bring joy into a
+      loving home. This handsome fellow is more than just a furry friend—he's a goofy and playful companion who loves
+      engaging in long conversations with you.</p>
+    <p>{{petDetails.name}} has been sterilized and vaccinated, making him the perfect addition to a caring family. If
+      you're an experienced pet parent looking for a delightful furry friend, {{petDetails.name}} is the one for you!
+    </p>
+
+    <div class="card-body d-flex justify-content-end">
+      <button class="btn btn-primary btn-adopt" (click)="adoptPet()">Adopt Me</button>
+      <button class="btn btn-primary" (click)="cancel()">Cancel</button>
+    </div>
+
+  </div>
+</div>

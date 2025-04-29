@@ -1,0 +1,24 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+
+  .pet-icon{
+    width:auto;
+    img {
+      fill: #6504b5;
+    height: 79px;
+    width: 79px;
+    }
+  }
+
+  .card-img{
+    width:280px;
+    height:280px
+  }
+  .mat-grid-tile{
+    height: -webkit-fill-available;
+  }
