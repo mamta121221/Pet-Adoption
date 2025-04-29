@@ -1,0 +1,20 @@
+<div class="panel panel-default custom_panel_mt">
+    <div class="panel-body">
+        <form>
+            <div class="form-group">
+              <div class="input-group custom_margin_top">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input id="username" type="text" class="form-control" [(ngModel)]="username" name="username" placeholder="Username">
+              </div>
+              <div class="input-group custom_margin_top">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input id="password" type="password" class="form-control" [(ngModel)]="password" name="password" placeholder="Password">
+              </div>
+          
+              
+            </div>
+            <button type="button" class="btn btn-primary custom_btn_center" (click)="login()">Login</button>
+           </form>
+    </div>
+    
+  </div>
